@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .target(
             name: "FabricLink",
-            dependencies: []
+            dependencies: [],
+            sources: ["FabricLink.swift", "FabricConstants.swift"]
         )
     ]
 )
